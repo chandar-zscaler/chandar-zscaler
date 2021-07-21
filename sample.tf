@@ -10,7 +10,7 @@ terraform {
 
 provider "aws" {
   profile = "default"
-  region  = "us-west-1"
+  region  = "us-wesqt-1"
 }
 
 resource "aws_instance" "app_server" {
