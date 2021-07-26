@@ -13,5 +13,5 @@ jobs:
     name: IAC scanning
     steps:
       - uses : actions/checkout@v2
-      - uses : chandar-zscaler/chandar-zscaler/Iac-scan-action@v1
+      - uses : chandar-zscaler/chandar-zscaler/Iac-scan-action
       
