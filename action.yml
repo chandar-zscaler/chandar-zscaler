@@ -1,4 +1,4 @@
-Name: 'Hello World'
+Name: 'Iac-scan-action'
 description: 'Greet someone and record the time'
 
 runs:
