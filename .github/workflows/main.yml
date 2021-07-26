@@ -10,8 +10,8 @@ on:
 jobs:
   scan-IAC:
     runs-on: ubuntu-latest
-    container:
-      image: dayakar18/githubaction:latest
-      steps:
-        - uses: actions/checkout@v2
+    name: IAC scanning
+    steps:
+      - uses : actions/checkout@v2
+      - uses : actions/chandar-zscaler@v1
       
