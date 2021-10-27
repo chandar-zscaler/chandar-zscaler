@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 
-resource "aws_instance" "app_seraver" {
+resource "aws_instance" "app_server" {
   #ts:skip=AWS.AI.LM.HIGH.0070 I am skipping it for fun
   associate_public_ip_address = true
   ami           = "ami-830c94e3"
