@@ -1,6 +1,0 @@
-Name: 'Iac-scan-action'
-description: 'Greet someone and record the time'
-
-runs:
-  using: 'docker'
-  image: 'docker://dayakar18/githubaction:latest'
